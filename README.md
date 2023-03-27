@@ -747,11 +747,11 @@ endif
 
 - 在 linux 环境下使用交叉编译器对 main 函数进行编译得到可执行文件 `test.out` 
 
-  ![image-20230306001631921](C:\Users\Hashifu\AppData\Roaming\Typora\typora-user-images\image-20230306001631921.png)
+  ![image-20230306001631921](.\pics\image-20230306001631921.png)
 
 - 在按键驱动目录下使用 `make` 指令，生成文件 `key.ko`
 
-  ![image-20230306001844194](C:\Users\Hashifu\AppData\Roaming\Typora\typora-user-images\image-20230306001844194.png)
+  ![image-20230306001844194](.\pics\image-20230306001844194.png)
 
 - 使用开发板官方文件中的 uboot 和 yaffs2 文件系统，使用我们上面制作的 zImmage 作为镜像文件，使用 SD 卡重新给开发板烧写系统。
 
@@ -759,11 +759,11 @@ endif
 
 - 驱动加载成功后使用 `./test.out` 运行程序，即可游玩该吃豆人小游戏。
 
-  ![image-20230306002228251](C:\Users\Hashifu\AppData\Roaming\Typora\typora-user-images\image-20230306002228251.png)
+  ![image-20230306002228251](.\pics\image-20230306002228251.png)
 
 - 游戏结束后， DNW 软件上会弹出提示。
 
-  ![image-20230306002316843](C:\Users\Hashifu\AppData\Roaming\Typora\typora-user-images\image-20230306002316843.png)
+  ![image-20230306002316843](.\pics\image-20230306002316843.png)
 
 
 
