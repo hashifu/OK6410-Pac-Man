@@ -1,0 +1,1 @@
+cmd_/home/hashifu/wuziqi/key.ko := arm-linux-ld -EL -r  -T /home/hashifu/forlinx/linux-3.0.1/scripts/module-common.lds --build-id  -o /home/hashifu/wuziqi/key.ko /home/hashifu/wuziqi/key.o /home/hashifu/wuziqi/key.mod.o
